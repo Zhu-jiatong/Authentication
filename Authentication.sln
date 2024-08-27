@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Authentication", "Authentication.vcxitems", "{84425930-45E9-4FE3-9227-40896DFB817A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicTest", "examples\BasicTest\BasicTest.vcxproj", "{CA031792-2BB5-49F4-B632-FCB3D0032A73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLitePlusPlus", "..\SQLitePlusPlus\SQLitePlusPlus.vcxitems", "{C6789903-E3C2-498E-88E2-FB67E5C366AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|ARM.Build.0 = Debug|ARM
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|ARM64.Build.0 = Debug|ARM64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|x64.ActiveCfg = Debug|x64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|x64.Build.0 = Debug|x64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|x64.Deploy.0 = Debug|x64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|x86.ActiveCfg = Debug|x86
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|x86.Build.0 = Debug|x86
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Debug|x86.Deploy.0 = Debug|x86
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|ARM.ActiveCfg = Release|ARM
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|ARM.Build.0 = Release|ARM
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|ARM.Deploy.0 = Release|ARM
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|ARM64.ActiveCfg = Release|ARM64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|ARM64.Build.0 = Release|ARM64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|ARM64.Deploy.0 = Release|ARM64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|x64.ActiveCfg = Release|x64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|x64.Build.0 = Release|x64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|x64.Deploy.0 = Release|x64
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|x86.ActiveCfg = Release|x86
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|x86.Build.0 = Release|x86
+		{CA031792-2BB5-49F4-B632-FCB3D0032A73}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C3A916-A834-4C8D-B78A-748977ADFAD2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Authentication.vcxitems*{84425930-45e9-4fe3-9227-40896dfb817a}*SharedItemsImports = 9
+		..\SQLitePlusPlus\SQLitePlusPlus.vcxitems*{c6789903-e3c2-498e-88e2-fb67e5c366ae}*SharedItemsImports = 9
+		Authentication.vcxitems*{ca031792-2bb5-49f4-b632-fcb3d0032a73}*SharedItemsImports = 4
+		..\SQLitePlusPlus\SQLitePlusPlus.vcxitems*{ca031792-2bb5-49f4-b632-fcb3d0032a73}*SharedItemsImports = 4
+	EndGlobalSection
+EndGlobal
