@@ -29,6 +29,9 @@ Authentication::UserData Authentication::createUser(const std::string& username,
 		throw std::runtime_error("Failed to create user");
 
 	std::int64_t id = stmt.getColumnValue<std::int64_t>(0);
+	if (m_onCreateUser)
+		m_onCreateUser(id);
+
 	return { id, username, hash };
 }
 

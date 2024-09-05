@@ -30,7 +30,7 @@ public:
 		SHA256 passwordHash;
 	};
 
-	Authentication(SQLite::DbConnection& db) :db(db) {}
+	Authentication(SQLite::DbConnection& db, std::function<void(std::int64_t)> onCreateUser) :db(db), m_onCreateUser(onCreateUser) {}
 
 	UserData createUser(const std::string& username, const std::string& password);
 
@@ -46,7 +46,7 @@ public:
 
 private:
 	SQLite::DbConnection& db;
+	std::function<void(std::int64_t)> m_onCreateUser;
 };
 
 #endif
-

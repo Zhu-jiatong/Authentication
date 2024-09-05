@@ -24,7 +24,7 @@ void setup()
 		SQLite::DbConnection db("/sd/test.db");
 		initialiseDatabase(db);
 
-		Authentication auth(db);
+		Authentication auth(db, onUserCreated);
 		auth.createUser("admin", "admin");
 		auth.createUser("user", "user");
 
@@ -140,4 +140,9 @@ void initialiseDatabase(SQLite::DbConnection& db)
 		"FOREIGN KEY (FileID) REFERENCES FileEntries(ID) ON DELETE CASCADE"
 		")"
 	).evaluate();
+}
+
+void onUserCreated(std::int64_t id)
+{
+	std::cout << "User created with ID: " << id << std::endl;
 }
